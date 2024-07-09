@@ -346,9 +346,11 @@ header {
 }
 
 .contact-pic {
-  width: 100%;
+  width: 200px;
   height: auto;
   object-fit: cover;
+  padding-bottom: 20px;
+  border-radius: 25%;
 }
 
 .contact-parent {
@@ -386,5 +388,31 @@ header {
 #contact p{
   font-size: 20px;
 }
+#about button{
+  background-color: #4CAF50; /* Green background */
+  color: #ffffff; /* White text */
+  padding: 10px 20px; /* Add some padding */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor shape on hover */
+  margin: 10px; /* Add some margin between buttons */
 
-
+}
+#about a{
+  text-decoration: none;
+  color: white;
+}
+#about button:hover {
+  /* Hover styles */
+  background-color: hsl(149, 73%, 65%); /* Darken the background color */
+  box-shadow: 0 0 20px rgba(0,0,0,0.2); /* Increase the shadow */
+  transform: scale(1.05); /* Zoom in slightly */
+  cursor: pointer; /* Change cursor shape on hover */
+}
+#about p{
+  font-size: large;
+}
+#about-div img:hover {
+  transform: scale(1.1); /* Zoom in on hover */
+  box-shadow: 0 0 20px rgba(0,0,0,0.2); /* Increase the shadow on hover */
+}
